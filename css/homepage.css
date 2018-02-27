@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2017, 7:24:12 PM
+    Author     : siddhartha
+*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  .panel-title{
+     text-align: center;
+  }
+  .container-fluid{
+     text-align: center;
+  }
+  #searchBox{
+      margin: auto;
+  }
+  .panel-fixed{
+     min-width: 700px;
+     max-width: 700px;
+     overflow-x: scroll;
+  }
+  
