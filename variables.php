@@ -1,14 +1,14 @@
 <?php
 
-/* 
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-$zwsid = "X1-ZWz1fcfayt3oqz_2f38x";
-$zwsid2 = "X1-ZWz1d5ii8uzojv_7q4l5";
-error_reporting(E_ALL ^ E_WARNING); 
+$zwsid = config.Zid1;
+$zwsid2 = config.Zid2;
+error_reporting(E_ALL ^ E_WARNING);
 $fmr = "&status=recentlySold&zws-id=$zwsid2&geocodes=true";
 $fmr2 = "&status=forRent&zws-id=$zwsid2&geocodes=true";
 
